@@ -1,27 +1,49 @@
-.footer{
+.footer {
     background-color: #102048;
 }
 
-.footer img{
+.footer img {
     height: 150px;
 }
 
-.enlaces h6{
+.enlaces h6 {
     color: #FEF4DB;
 }
 
-.enlaces a{
+.enlaces a {
     text-decoration: none;
 }
 
-.iconos h6{
+.iconos h6 {
     color: #FEF4DB;
     text-align: center;
 }
 
-.iconos a{
+.iconos a {
     color: #FEF4DB;
     font-size: 30px;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 15px;
+}
+
+@media (max-width: 979px) {
+
+    .iconos h6 {
+        font-size: 12px;
+    }
+
+    .enlaces h6 {
+        font-size: 12px;
+    }
+
+    .iconos a {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 3px;
+    }
+
+    .footer img {
+        height: 100px;
+    }
+
 }
