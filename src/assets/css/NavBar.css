@@ -28,6 +28,14 @@ ul.dropdown-menu{
     color: #FEF4DB;
 }
 
+.register{
+    background-color: #102048;
+    border-radius: 20px;
+}
+
+.register a{
+    color: #FEF4DB;
+}
 
 @media (max-width: 979px) {
 
