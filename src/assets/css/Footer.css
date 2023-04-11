@@ -1,0 +1,27 @@
+.footer{
+    background-color: #102048;
+}
+
+.footer img{
+    height: 150px;
+}
+
+.enlaces h6{
+    color: #FEF4DB;
+}
+
+.enlaces a{
+    text-decoration: none;
+}
+
+.iconos h6{
+    color: #FEF4DB;
+    text-align: center;
+}
+
+.iconos a{
+    color: #FEF4DB;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10px;
+}
