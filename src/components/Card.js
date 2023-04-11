@@ -1,4 +1,6 @@
 import React from "react";
+import { AiOutlineMessage } from 'react-icons/ai';
+import { Link } from "react-router-dom";
 
 //aqui va trabajar jp 
 const CardNews = () => {
@@ -198,8 +200,10 @@ const CardPartner = () => {
                 <div class="card_father_partner">
                     <div class="card_partner">
                         <div class="card_front_partner">
-                            <div class="_partner"></div>
-                            <div class="body_card_front_partner">
+                            <div class="_partner">
+                                <img src="https://i.ibb.co/YbgJfwR/3.png" />
+                            </div>
+                            <div class="body_card_front_partner bg_partner">
                                 <h1>Nombre y Apellido</h1>
                             </div>
                         </div>
@@ -207,12 +211,17 @@ const CardPartner = () => {
                             <div class="body_card_back_partner">
                                 <h1>Nombre y Apellido</h1>
                                 <p class="p_card_back_partner">Descripcion</p>
-                                <div class="back_extra_partner">
-                                    <ul>
-                                        <li>Interes 1</li>
-                                        <li>Interes 2</li>
-                                        <li>Interes 3</li>
-                                    </ul>
+                                <div class="back_extra_partner d-flex justify-content-between">
+                                    <div>
+                                        <ul>
+                                            <li>Interes 1</li>
+                                            <li>Interes 2</li>
+                                            <li>Interes 3</li>
+                                        </ul>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <Link to="/"><AiOutlineMessage /></Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -221,8 +230,10 @@ const CardPartner = () => {
                 <div class="card_father_partner">
                     <div class="card_partner">
                         <div class="card_front_partner">
-                            <div class="_partner"></div>
-                            <div class="body_card_front_partner">
+                            <div class="_partner">
+                                <img src="https://i.ibb.co/fS5C0nv/5.png" />
+                            </div>
+                            <div class="body_card_front_partner bg_partner">
                                 <h1>Nombre y Apellido</h1>
                             </div>
                         </div>
@@ -230,12 +241,17 @@ const CardPartner = () => {
                             <div class="body_card_back_partner">
                                 <h1>Nombre y Apellido</h1>
                                 <p class="p_card_back_partner">Descripcion</p>
-                                <div class="back_extra_partner">
-                                    <ul>
-                                        <li>Interes 1</li>
-                                        <li>Interes 2</li>
-                                        <li>Interes 3</li>
-                                    </ul>
+                                <div class="back_extra_partner d-flex justify-content-between">
+                                    <div>
+                                        <ul>
+                                            <li>Interes 1</li>
+                                            <li>Interes 2</li>
+                                            <li>Interes 3</li>
+                                        </ul>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <Link to="/"><AiOutlineMessage /></Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -244,8 +260,10 @@ const CardPartner = () => {
                 <div class="card_father_partner">
                     <div class="card_partner">
                         <div class="card_front_partner">
-                            <div class="_partner"></div>
-                            <div class="body_card_front_partner">
+                            <div class="_partner">
+                                <img src="https://i.ibb.co/nwJX4Gj/2.png" />
+                            </div>
+                            <div class="body_card_front_partner bg_partner">
                                 <h1>Nombre y Apellido</h1>
                             </div>
                         </div>
@@ -253,12 +271,17 @@ const CardPartner = () => {
                             <div class="body_card_back_partner">
                                 <h1>Nombre y Apellido</h1>
                                 <p class="p_card_back_partner">Descripcion</p>
-                                <div class="back_extra_partner">
-                                    <ul>
-                                        <li>Interes 1</li>
-                                        <li>Interes 2</li>
-                                        <li>Interes 3</li>
-                                    </ul>
+                                <div class="back_extra_partner d-flex justify-content-between">
+                                    <div>
+                                        <ul>
+                                            <li>Interes 1</li>
+                                            <li>Interes 2</li>
+                                            <li>Interes 3</li>
+                                        </ul>
+                                    </div>
+                                    <div className="d-flex align-items-center">
+                                        <Link to="/"><AiOutlineMessage /></Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -272,9 +295,9 @@ const CardPartner = () => {
 //aqui va trabajar Felipe 
 const CardEvents = () => {
     return (
-            <div>
-                Soy una card eventos
-            </div>
-            )
+        <div>
+            Soy una card eventos
+        </div>
+    )
 }
-            export {CardNews, CardAbility, CardTool, CardPartner, CardEvents};
+export { CardNews, CardAbility, CardTool, CardPartner, CardEvents };
