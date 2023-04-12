@@ -1,10 +1,12 @@
 import React from "react";
 import { FormRegister } from "../components/FormRegister";
+import { Login } from "../components";
 
 const FormRegisterView = () => {
     return (
         <div>
-            <FormRegister />
+            <Login/>
+            <FormRegister/>
         </div>
     )
 }
