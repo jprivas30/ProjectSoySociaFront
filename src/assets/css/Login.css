@@ -1,6 +1,3 @@
-.body-login{
-    
-}
 
 .login-wrap{
     display: flex;
@@ -122,6 +119,7 @@
 	transform:scale(0) rotate(0);
 }
 
+
 .login-form .group .check:checked + label{
 	color:#102048;
 }
@@ -154,4 +152,14 @@
 .foot-lnk a{
     text-decoration: none;
     color: #102048;
+}
+
+.group a{
+	text-decoration: none;
+}
+
+.buttonEnviar button{
+	background-color: #102048!important;
+	color: #FEF4DB !important;
+
 }

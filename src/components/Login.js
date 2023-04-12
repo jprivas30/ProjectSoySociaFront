@@ -4,55 +4,55 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
     return (
-            <div class="login-wrap">
-                <div class="login-html">
-                    <input id="tab-1" type="radio" name="tab" class="sign-in" checked /><label for="tab-1" class="tab">Iniciar Sesión</label>
-                    <input id="tab-2" type="radio" name="tab" class="sign-up" /><label for="tab-2" class="tab">Registrarse</label>
-                    <div class="login-form">
-                        <div class="sign-in-htm">
-                            <div class="group">
-                                <label for="user" class="label">Nombre de Usuario</label>
-                                <input id="user" type="text" class="input" />
+            <div className="login-wrap">
+                <div className="login-html">
+                    <input id="tab-1" type="radio" name="tab" className="sign-in" checked /><label for="tab-1" className="tab">Iniciar Sesión</label>
+                    <input id="tab-2" type="radio" name="tab" className="sign-up" /><label for="tab-2" className="tab">Registrarse</label>
+                    <div className="login-form">
+                        <div className="sign-in-htm">
+                            <div className="group">
+                                <label for="user" className="label">Nombre de Usuario</label>
+                                <input id="user" type="text" className="input" />
                             </div>
-                            <div class="group">
-                                <label for="pass" class="label">Contraseña</label>
-                                <input id="pass" type="password" class="input" data-type="password" />
+                            <div className="group">
+                                <label for="pass" className="label">Contraseña</label>
+                                <input id="pass" type="password" className="input" data-type="password" />
                             </div>
-                            <div class="group">
-                                <input id="check" type="checkbox" class="check" checked />
-                                <label for="check"><span class="icon"></span>Mantener sesión iniciada</label>
+                            <div className="group">
+                                <input id="check" type="checkbox" className="check" />
+                                <label for="check"><span className="icon"></span>Mantener sesión iniciada</label>
                             </div>
-                            <div class="group">
-                                <input type="submit" class="button" value="Iniciar Sesión" />
+                            <div className="group">
+                                <input type="submit" className="button" value="Iniciar Sesión" />
                             </div>
-                            <div class="hr"></div>
-                            <div class="foot-lnk">
+                            <div className="hr"></div>
+                            <div className="foot-lnk">
                                 <Link to="/login">¿Olvidaste la Contraseña?</Link>
                             </div>
                         </div>
-                        <div class="sign-up-htm">
-                            <div class="group">
-                                <label for="user" class="label">Nombre de Usuario</label>
-                                <input id="user" type="text" class="input" />
+                        <div className="sign-up-htm">
+                            <div className="group">
+                                <label for="user" className="label">Nombre de Usuario</label>
+                                <input id="user" type="text" className="input" />
                             </div>
-                            <div class="group">
-                                <label for="pass" class="label">Contraseña</label>
-                                <input id="pass" type="password" class="input" data-type="password" />
+                            <div className="group">
+                                <label for="pass" className="label">Contraseña</label>
+                                <input id="pass" type="password" className="input" data-type="password" />
                             </div>
-                            <div class="group">
-                                <label for="pass" class="label">Repetir Contraseña</label>
-                                <input id="pass" type="password" class="input" data-type="password" />
+                            <div className="group">
+                                <label for="pass" className="label">Repetir Contraseña</label>
+                                <input id="pass" type="password" className="input" data-type="password" />
                             </div>
-                            <div class="group">
-                                <label for="pass" class="label">Correo Electronico</label>
-                                <input id="pass" type="text" class="input" />
+                            <div className="group">
+                                <label for="pass" className="label">Correo Electronico</label>
+                                <input id="pass" type="text" className="input" />
                             </div>
-                            <div class="hr"></div>
-                            <div class="group">
-                                <input type="submit" class="button" value="Registrarse" />
+                            <div className="hr"></div>
+                            <div className="group">
+                                <a href="#formulario"><input type="submit" className="button" value="Registrarse"/></a>
                             </div>
-                            <div class="hr"></div>
-                            <div class="foot-lnk">
+                            <div className="hr"></div>
+                            <div className="foot-lnk">
                                 <label for="tab-1">¿Ya estas registrado?</label>
                             </div>
                         </div>

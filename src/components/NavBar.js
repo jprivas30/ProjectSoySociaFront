@@ -22,7 +22,6 @@ const NavBar = () => {
                                 <ul className="dropdown-menu">
                                     <li><Link to="Tool" className="dropdown-item" >Herramientas</Link></li>
                                     <li><Link to="Ability" className="dropdown-item" >Habilidades</Link></li>
-                                    <li><Link to="/" className="dropdown-item" >Tutorias</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown col ">
