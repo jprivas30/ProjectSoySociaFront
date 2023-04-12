@@ -195,23 +195,23 @@ const CardTool = () => {
 //aqui va trabajar karen 
 const CardPartner = () => {
     return (
-        <div class="body_partner">
-            <div class="container_card_partner">
-                <div class="card_father_partner">
-                    <div class="card_partner">
-                        <div class="card_front_partner">
-                            <div class="_partner">
+        <div className="body_partner">
+            <div className="container_card_partner">
+                <div className="card_father_partner">
+                    <div className="card_partner">
+                        <div className="card_front_partner">
+                            <div className="_partner">
                                 <img src="https://i.ibb.co/YbgJfwR/3.png" />
                             </div>
-                            <div class="body_card_front_partner bg_partner">
+                            <div className="body_card_front_partner bg_partner">
                                 <h1>Nombre y Apellido</h1>
                             </div>
                         </div>
-                        <div class="card_back_partner">
-                            <div class="body_card_back_partner">
+                        <div className="card_back_partner">
+                            <div className="body_card_back_partner">
                                 <h1>Nombre y Apellido</h1>
-                                <p class="p_card_back_partner">Descripcion</p>
-                                <div class="back_extra_partner d-flex justify-content-between">
+                                <p className="p_card_back_partner">Descripcion</p>
+                                <div className="back_extra_partner d-flex justify-content-between">
                                     <div>
                                         <ul>
                                             <li>Interes 1</li>
@@ -227,21 +227,21 @@ const CardPartner = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card_father_partner">
-                    <div class="card_partner">
-                        <div class="card_front_partner">
-                            <div class="_partner">
+                <div className="card_father_partner">
+                    <div className="card_partner">
+                        <div className="card_front_partner">
+                            <div className="_partner">
                                 <img src="https://i.ibb.co/fS5C0nv/5.png" />
                             </div>
-                            <div class="body_card_front_partner bg_partner">
+                            <div className="body_card_front_partner bg_partner">
                                 <h1>Nombre y Apellido</h1>
                             </div>
                         </div>
-                        <div class="card_back_partner">
-                            <div class="body_card_back_partner">
+                        <div className="card_back_partner">
+                            <div className="body_card_back_partner">
                                 <h1>Nombre y Apellido</h1>
-                                <p class="p_card_back_partner">Descripcion</p>
-                                <div class="back_extra_partner d-flex justify-content-between">
+                                <p className="p_card_back_partner">Descripcion</p>
+                                <div className="back_extra_partner d-flex justify-content-between">
                                     <div>
                                         <ul>
                                             <li>Interes 1</li>
@@ -257,21 +257,21 @@ const CardPartner = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card_father_partner">
-                    <div class="card_partner">
-                        <div class="card_front_partner">
-                            <div class="_partner">
+                <div className="card_father_partner">
+                    <div className="card_partner">
+                        <div className="card_front_partner">
+                            <div className="_partner">
                                 <img src="https://i.ibb.co/nwJX4Gj/2.png" />
                             </div>
-                            <div class="body_card_front_partner bg_partner">
+                            <div className="body_card_front_partner bg_partner">
                                 <h1>Nombre y Apellido</h1>
                             </div>
                         </div>
-                        <div class="card_back_partner">
-                            <div class="body_card_back_partner">
+                        <div className="card_back_partner">
+                            <div className="body_card_back_partner">
                                 <h1>Nombre y Apellido</h1>
-                                <p class="p_card_back_partner">Descripcion</p>
-                                <div class="back_extra_partner d-flex justify-content-between">
+                                <p className="p_card_back_partner">Descripcion</p>
+                                <div className="back_extra_partner d-flex justify-content-between">
                                     <div>
                                         <ul>
                                             <li>Interes 1</li>

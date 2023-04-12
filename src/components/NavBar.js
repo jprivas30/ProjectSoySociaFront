@@ -36,7 +36,7 @@ const NavBar = () => {
                                 </ul>
                             </li>
                             <li className="nav-item col col-lg-3 register">
-                                <Link to="/" className="nav-link">Ser Socia</Link>
+                                <Link to="/Register" className="nav-link">Ser Socia</Link>
                             </li>
                         </ul>
                     </div>
