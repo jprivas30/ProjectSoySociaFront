@@ -15,6 +15,9 @@ const CardNews = () => {
 const CardAbility = () => {
     return (
         <div>
+            <div class="titlePage">
+                <h2>Habilidades</h2>
+            </div>
             <div className="container-card">
                 <div className="card">
                     <figure>
@@ -105,6 +108,9 @@ const CardAbility = () => {
 const CardTool = () => {
     return (
         <div>
+            <div class="titlePage">
+                <h2>Herramientas</h2>
+            </div>
             <div className="container-card">
 
                 <div className="card">
@@ -195,92 +201,97 @@ const CardTool = () => {
 //aqui va trabajar karen 
 const CardPartner = () => {
     return (
-        <div className="body_partner">
-            <div className="container_card_partner">
-                <div className="card_father_partner">
-                    <div className="card_partner">
-                        <div className="card_front_partner">
-                            <div className="_partner">
-                                <img src="https://i.ibb.co/YbgJfwR/3.png" />
+        <div>
+            <div class="titlePage">
+                <h2>Colaboradoras</h2>
+            </div>
+            <div className="body_partner">
+                <div className="container_card_partner">
+                    <div className="card_father_partner">
+                        <div className="card_partner">
+                            <div className="card_front_partner">
+                                <div className="_partner">
+                                    <img src="https://i.ibb.co/YbgJfwR/3.png" />
+                                </div>
+                                <div className="body_card_front_partner bg_partner">
+                                    <h1>Nombre y Apellido</h1>
+                                </div>
                             </div>
-                            <div className="body_card_front_partner bg_partner">
-                                <h1>Nombre y Apellido</h1>
-                            </div>
-                        </div>
-                        <div className="card_back_partner">
-                            <div className="body_card_back_partner">
-                                <h1>Nombre y Apellido</h1>
-                                <p className="p_card_back_partner">Descripcion</p>
-                                <div className="back_extra_partner d-flex justify-content-between">
-                                    <div>
-                                        <ul>
-                                            <li>Interes 1</li>
-                                            <li>Interes 2</li>
-                                            <li>Interes 3</li>
-                                        </ul>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <Link to="/"><AiOutlineMessage /></Link>
+                            <div className="card_back_partner">
+                                <div className="body_card_back_partner">
+                                    <h1>Nombre y Apellido</h1>
+                                    <p className="p_card_back_partner">Descripcion</p>
+                                    <div className="back_extra_partner d-flex justify-content-between">
+                                        <div>
+                                            <ul>
+                                                <li>Interes 1</li>
+                                                <li>Interes 2</li>
+                                                <li>Interes 3</li>
+                                            </ul>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <Link to="/"><AiOutlineMessage /></Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="card_father_partner">
-                    <div className="card_partner">
-                        <div className="card_front_partner">
-                            <div className="_partner">
-                                <img src="https://i.ibb.co/fS5C0nv/5.png" />
+                    <div className="card_father_partner">
+                        <div className="card_partner">
+                            <div className="card_front_partner">
+                                <div className="_partner">
+                                    <img src="https://i.ibb.co/fS5C0nv/5.png" />
+                                </div>
+                                <div className="body_card_front_partner bg_partner">
+                                    <h1>Nombre y Apellido</h1>
+                                </div>
                             </div>
-                            <div className="body_card_front_partner bg_partner">
-                                <h1>Nombre y Apellido</h1>
-                            </div>
-                        </div>
-                        <div className="card_back_partner">
-                            <div className="body_card_back_partner">
-                                <h1>Nombre y Apellido</h1>
-                                <p className="p_card_back_partner">Descripcion</p>
-                                <div className="back_extra_partner d-flex justify-content-between">
-                                    <div>
-                                        <ul>
-                                            <li>Interes 1</li>
-                                            <li>Interes 2</li>
-                                            <li>Interes 3</li>
-                                        </ul>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <Link to="/"><AiOutlineMessage /></Link>
+                            <div className="card_back_partner">
+                                <div className="body_card_back_partner">
+                                    <h1>Nombre y Apellido</h1>
+                                    <p className="p_card_back_partner">Descripcion</p>
+                                    <div className="back_extra_partner d-flex justify-content-between">
+                                        <div>
+                                            <ul>
+                                                <li>Interes 1</li>
+                                                <li>Interes 2</li>
+                                                <li>Interes 3</li>
+                                            </ul>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <Link to="/"><AiOutlineMessage /></Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="card_father_partner">
-                    <div className="card_partner">
-                        <div className="card_front_partner">
-                            <div className="_partner">
-                                <img src="https://i.ibb.co/nwJX4Gj/2.png" />
+                    <div className="card_father_partner">
+                        <div className="card_partner">
+                            <div className="card_front_partner">
+                                <div className="_partner">
+                                    <img src="https://i.ibb.co/nwJX4Gj/2.png" />
+                                </div>
+                                <div className="body_card_front_partner bg_partner">
+                                    <h1>Nombre y Apellido</h1>
+                                </div>
                             </div>
-                            <div className="body_card_front_partner bg_partner">
-                                <h1>Nombre y Apellido</h1>
-                            </div>
-                        </div>
-                        <div className="card_back_partner">
-                            <div className="body_card_back_partner">
-                                <h1>Nombre y Apellido</h1>
-                                <p className="p_card_back_partner">Descripcion</p>
-                                <div className="back_extra_partner d-flex justify-content-between">
-                                    <div>
-                                        <ul>
-                                            <li>Interes 1</li>
-                                            <li>Interes 2</li>
-                                            <li>Interes 3</li>
-                                        </ul>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <Link to="/"><AiOutlineMessage /></Link>
+                            <div className="card_back_partner">
+                                <div className="body_card_back_partner">
+                                    <h1>Nombre y Apellido</h1>
+                                    <p className="p_card_back_partner">Descripcion</p>
+                                    <div className="back_extra_partner d-flex justify-content-between">
+                                        <div>
+                                            <ul>
+                                                <li>Interes 1</li>
+                                                <li>Interes 2</li>
+                                                <li>Interes 3</li>
+                                            </ul>
+                                        </div>
+                                        <div className="d-flex align-items-center">
+                                            <Link to="/"><AiOutlineMessage /></Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
