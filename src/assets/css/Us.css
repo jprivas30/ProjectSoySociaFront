@@ -7,18 +7,6 @@
     justify-content: center;
 }
 
-.titlePage{
-    background-color: #102048;
-    color: #FEF4DB;
-    text-align: center;
-    padding: 15px 0;
-
-}
-
-.titlePage h2{
-    margin: 0;
-}
-
 .person {
     /* border: 1px solid; */
     display: flex;
@@ -29,7 +17,7 @@
 }
 
 .container {
-    height: 300px;
+    height: 260px;
     width: 300px;
     cursor: pointer;
     transform: scale(0.48);
@@ -95,4 +83,41 @@
     text-align: center;
     color: #102048;
     font-size: 18px;
+}
+
+.titlePage{
+    background-color: #102048;
+    color: #FEF4DB;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.titlePage2{
+    color:  #102048;
+    background-color:  #FEF4DB;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.titlePage h2{
+    margin: 0;
+}
+
+@media (max-width: 570px) {
+    
+.ppal{
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.titlePage{
+    padding: 5px 0;
+}
+
+.titlePage2{
+    padding: 5px 0;
+}
 }
