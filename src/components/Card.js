@@ -6,7 +6,75 @@ import { Link } from "react-router-dom";
 const CardNews = () => {
     return (
         <div>
-            Soy una card noticias xP
+            <div class="titlePage">
+                <h2>Noticias</h2>
+            </div>
+            <div class="newscontainer">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="newscard">
+                            <img src="https://www.bbva.com/wp-content/uploads/2021/07/BBVA-Emprendimiento_en_femenino-APERTURA.jpg" class="card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="newscard-title">Cursos SENCE y Municipalidades</h5>
+                                    <p class="newscard-text">Descripcion: Enterate de los cursos presenciales que ofrecerá SENCE en conjunto con varias municipalidades, entregando conocimientos para el emprendimiento ¡y ademas un bono por asistencial al curso!.</p>
+                                    <a href="https://www.latercera.com/servicios/noticia/revisa-los-cursos-gratuitos-para-emprendedores-del-sence/DJ7N5FRCHZAH5NV7JWOTLA3PRY/" class="btn btn-primary">Leer más</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="newscard">
+                            <img src="https://www.rutadigital.cl/media/images/gestion.original.jpg" class="card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="newscard-title">Nuevo curso "Gestion y Colaboración" de RutaDigital y Sercotec"</h5>
+                                    <p class="newscard-text">¿Te falta tiempo? O te gustaria tener más herramientas que ter permitan organizarte mejor… ingresa al siguiente link y descubriras como!
+
+                                    </p>
+                                    <a href="https://www.rutadigital.cl/gestion-y-colaboracion/" class="btn btn-primary">Leer más</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="newscard">
+                            <img src="https://www.latercera.com/resizer/3oF7CIO_6rmsTwnEeGpYuvyvzP0=/900x600/filters:focal(1278x1492:1288x1482)/cloudfront-us-east-1.images.arcpublishing.com/copesa/YJ4WWUOSYJGVRGFGN4JZTTV7AY.jpg" class="card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="newscard-title">Mujeres que inspiran: </h5>
+                                    <p class="newscard-text">Yeanice Vásquez Pino, Exitosa cientifica y emprendedora chilena…. Descubre mas de ella en el siguiente link:</p>
+                                    <a href="https://www.latercera.com/que-pasa/noticia/la-cientifica-chilena-que-lucha-contra-el-cambio-climatico-utilizando-inteligencia-artificial/4GZFAXR3UREOLP3WLCAUQ65PJ4/" class="btn btn-primary">Leer más</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="newscard">
+                            <img src="https://www.sercotec.cl/wp-content/uploads/2023/02/web_grafica.jpeg" class="card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="newscard-title">¡Fondos para emprendimientos!</h5>
+                                    <p class="newscard-text">Informate sobre las fechas y los fondos que ofrece el estado, ¡es una gran oportunidad para crecer!.</p>
+                                    <a href="https://www.sercotec.cl/sercotec-anuncia-su-calendario-de-convocatorias-2023" class="btn btn-primary">Leer más</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="newscard">
+                            <img src="https://www.crecemujer.cl/sites/default/files/styles/medium/public/captura_de_pantalla_2023-03-22_164832.jpg?itok=IS6TBJcf" class="card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="newscard-title">Mujeres exponentes en el emprendimiento</h5>
+                                    <p class="newscard-text">Banco Estado junto con el ministerio de la mujer ofrecen una ronda de charlas sobre el empoderamiento economico de las mujeres, no te las pierdas!.</p>
+                                    <a href="https://www.crecemujer.cl/noticia/dimos-inicio-al-ciclo-mejorando-mis-competencias" class="btn btn-primary">Leer más</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="newscard">
+                            <img src="https://static.emol.cl/emol50/Fotos/2023/03/08/file_20230308154126.jpeg" class="card-img-top"/>
+                                <div class="card-body">
+                                    <h5 class="newscard-title">Mas mujeres liderando</h5>
+                                    <p class="newscard-text">Durante los ultimos 3 años el numero de empresas lideradas por mujeres ha crecido un 35! ¿será suficiente? enterate de mas en el sigueinte link:</p>
+                                    <a href="https://www.emol.com/noticias/Economia/2023/03/08/1088752/rol-femenino-en-ecosistema-emprendedor.html" class="btn btn-primary">Leer más</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
