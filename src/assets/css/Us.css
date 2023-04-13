@@ -93,14 +93,6 @@
 
 }
 
-.titlePage2{
-    color:  #102048;
-    background-color:  #FEF4DB;
-    text-align: center;
-    padding: 15px 0;
-
-}
-
 .titlePage h2{
     margin: 0;
 }
@@ -117,7 +109,4 @@
     padding: 5px 0;
 }
 
-.titlePage2{
-    padding: 5px 0;
-}
 }
