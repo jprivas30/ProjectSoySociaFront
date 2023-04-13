@@ -15,7 +15,7 @@ const Us = () => {
                 <p class="ppal">Ser una plataforma reconocida a nivel nacional por su apoyo a mujeres que divulgan su conocimiento y experiencia.</p>
             </div>
             <div class="titlePage">
-                <h2>Nosotros</h2>
+                <h2>Nuestro Equipo</h2>
             </div>
             <div class="fathercontainer">
                 <div class="person">

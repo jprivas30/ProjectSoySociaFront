@@ -306,90 +306,81 @@ const CardPartner = () => {
 //aqui va trabajar Felipe 
 const CardEvents = () => {
     return (
-
-        <div class="events">
-
-
-            <div class="card">
-                <div class="left-column background-left-column">
-                    <h6>Eventos</h6>
-                    <h2>Presencial</h2>
-                    <h3>Alisa Rivas </h3>
-                </div>
-
-                <div class="right-column">
-                    <div class="data">
-                        <h4>Av. Irarrázaval 4055, Ñuñoa</h4>
-                        <h6>30/04/2023 10:00</h6>
-                    </div>
-                    <h2>Contabilidad básica</h2>
-                    <p>Los numeros son importantes en tu negocio, te enseñare las operaciones basicas y el uso de programas gratuitos para que puedas tener tus numeros en orden</p>
-                    <button class="button">Inscripción</button>
-                </div>
-
+        <div>
+            <div class="titlePage">
+                <h2>Proximos Eventos</h2>
             </div>
-
-            <div class="card">
-                <div class="left-column background-left-column-online">
-                    <h6>Eventos</h6>
-                    <h2>Online    </h2>
-                    <h3>Javiera Gonzales </h3>
-                </div>
-
-                <div class="right-column">
-                    <div class="data">
-                        <h4>Via Zoom     </h4>
-                        <h6>29/04/2023 11:00</h6>
+            <div class="events">
+                <div class="cardEvents">
+                    <div class="left-column background-left-column">
+                        <h6>Eventos</h6>
+                        <h4>Presencial</h4>
+                        <img src="https://i.ibb.co/fS5C0nv/5.png"></img>
+                        <h3>Alisa Rivas </h3>
                     </div>
-                    <h2>Canva básico</h2>
-                    <p>Las gráficas digitales son muy importantes para tu emprendimiento, en este taller aprenderás a usar canva una plataforma gratuita. </p>
-                    <button class="button">Inscripción</button>
+                    <div class="right-column">
+                        <div class="dataEvents">
+                            <h4>Av. Irarrázaval 4055, Ñuñoa</h4>
+                            <h6>30/04/2023 10:00</h6>
+                        </div>
+                        <h2>Contabilidad básica</h2>
+                        <p>Los numeros son importantes en tu negocio, te enseñare las operaciones basicas y el uso de programas gratuitos para que puedas tener tus numeros en orden</p>
+                        <button class="buttonIns">Inscripción</button>
+                    </div>
+                </div>
+                <div class="cardEvents">
+                    <div class="left-column background-left-column-online">
+                        <h6>Eventos</h6>
+                        <h4>Online    </h4>
+                        <img src="https://i.ibb.co/nwJX4Gj/2.png"></img>
+                        <h3>Javiera Gonzales </h3>
+                    </div>
+                    <div class="right-column">
+                        <div class="dataEvents">
+                            <h4>Via Zoom     </h4>
+                            <h6>29/04/2023 11:00</h6>
+                        </div>
+                        <h2>Canva básico</h2>
+                        <p>Las gráficas digitales son muy importantes para tu emprendimiento, en este taller aprenderás a usar canva una plataforma gratuita. </p>
+                        <button class="buttonIns">Inscripción</button>
+                    </div>
+                </div>
+                <div class="cardEvents">
+                    <div class="left-column background-left-column-online">
+                        <h6>Eventos</h6>
+                        <h4>Online    </h4>
+                        <img src="https://i.ibb.co/JQvx9Fd/7.png"></img>
+                        <h3>Catalina Lin</h3>
+                    </div>
+                    <div class="right-column">
+                        <div class="dataEvents">
+                            <h4>Via Meet     </h4>
+                            <h6>05/05/2023 09:00</h6>
+                        </div>
+                        <h2>Programa tu primer bot</h2>
+                        <p>Aprende a crear tu propio bot para automatizar las respuestas de tus redes sociales. </p>
+                        <button class="buttonIns">Inscripción</button>
+                    </div>
+                </div>
+                <div class="cardEvents">
+                    <div class="left-column background-left-column">
+                        <h6>Eventos</h6>
+                        <h4>Presencial</h4>
+                        <img src="https://i.ibb.co/r4bRMYm/8.png"></img>
+                        <h3>Miranda Torres</h3>
+                    </div>
+                    <div class="right-column">
+                        <div class="dataEvents">
+                            <h4>Av. Irarrázaval 4055, Ñuñoa</h4>
+                            <h6>06/05/2023 11:00</h6>
+                        </div>
+                        <h2>Registra tu marca</h2>
+                        <p>En este taller vas a aprender como poder registrar tu marca y los beneficios que conlleva este proceso</p>
+                        <button class="buttonIns">Inscripción</button>
+                    </div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="left-column background-left-column-online">
-                    <h6>Eventos</h6>
-                    <h2>Online    </h2>
-                    <h3>Catalina Arroyo</h3>
-                </div>
-
-                <div class="right-column">
-                    <div class="data">
-                        <h4>Via Meet     </h4>
-                        <h6>05/05/2023 09:00</h6>
-                    </div>
-                    <h2>Programa tu primer bot</h2>
-                    <p>Aprende a crear tu propio bot para automatizar las respuestas de tus redes sociales. </p>
-                    <button class="button">Inscripción</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="left-column background-left-column">
-                    <h6>Eventos</h6>
-                    <h2>Presencial</h2>
-                    <h3>Miranda de la Torre</h3>
-                </div>
-
-                <div class="right-column">
-                    <div class="data">
-                        <h4>Av. Irarrázaval 4055, Ñuñoa</h4>
-                        <h6>06/05/2023 11:00</h6>
-                    </div>
-                    <h2>Registra tu marca</h2>
-                    <p>En este taller vas a aprender como poder registrar tu marca y los beneficios que conlleva este proceso</p>
-                    <button class="button">Inscripción</button>
-                </div>
-
-            </div>
-
-
         </div>
-
-
-
-
     )
 }
 export { CardNews, CardAbility, CardTool, CardPartner, CardEvents };
