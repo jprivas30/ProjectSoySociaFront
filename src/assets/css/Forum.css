@@ -45,6 +45,11 @@
     height: 80px;
     border-radius: 20px;
     border: #102048 double 3px;
+    margin-top: 10px;
+}
+
+.fountForum h6{
+    margin: 4px;
 }
 
 .iconsForum {
@@ -62,6 +67,11 @@
 
 .starForum{
     font-size: 20px;
+}
+
+.bodyForum{
+    background-color: #FEF4DB;
+    color: #102048;
 }
 
 
