@@ -1,11 +1,6 @@
 import React from "react"
 
 const FormRegister = () => {
-
-
-
-
-
     return (
         <div className="d-flex flex-column justify-content-center align-items-center " id="formulario">
             <div className="container-fluid login-wrap">
@@ -120,7 +115,6 @@ const FormRegister = () => {
                                             <option value="26">Administrar el tiempo</option>
                                         </select>
                                     </div>
-
                                     <div className="col">
                                         <select name="" id="" className="form-select" required>
                                             <option value="">Escoge uno </option>
@@ -152,7 +146,6 @@ const FormRegister = () => {
                                             <option value="26">Administrar el tiempo</option>
                                         </select>
                                     </div>
-
                                     <div className="col">
                                         <select name="" id="" className="form-select" required>
                                             <option value="">Escoge uno </option>
@@ -184,7 +177,6 @@ const FormRegister = () => {
                                             <option value="26">Administrar el tiempo</option>
                                         </select>
                                     </div>
-
                                 </div>
                             </div>
                             <div className="col-md-12">
@@ -192,7 +184,6 @@ const FormRegister = () => {
                                     <h5 className="">¿Que Rol quieres tener dentro de nuestra aplicación web? <span className="text-danger">*</span></h5>
                                 </div>
                                 <div className="row">
-
                                     <div className="col">
                                         <select name="" id="" className="form-select" required >
                                             <option value="1">Colaboradora</option>
