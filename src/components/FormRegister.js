@@ -1,6 +1,11 @@
 import React from "react"
 
 const FormRegister = () => {
+
+
+
+
+
     return (
         <div className="d-flex flex-column justify-content-center align-items-center " id="formulario">
             <div className="container-fluid login-wrap">

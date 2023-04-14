@@ -9,73 +9,92 @@ const CardNews = () => {
             <div class="titlePage">
                 <h2>Noticias</h2>
             </div>
-            <div class="newscontainer">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="newscard">
-                            <img src="https://www.bbva.com/wp-content/uploads/2021/07/BBVA-Emprendimiento_en_femenino-APERTURA.jpg" class="card-img-top"/>
-                                <div class="card-body">
-                                    <h5 class="newscard-title">Cursos SENCE y Municipalidades</h5>
-                                    <p class="newscard-text">Descripcion: Enterate de los cursos presenciales que ofrecerá SENCE en conjunto con varias municipalidades, entregando conocimientos para el emprendimiento ¡y ademas un bono por asistencial al curso!.</p>
-                                    <a href="https://www.latercera.com/servicios/noticia/revisa-los-cursos-gratuitos-para-emprendedores-del-sence/DJ7N5FRCHZAH5NV7JWOTLA3PRY/" class="btn btn-primary">Leer más</a>
-                                </div>
+            <div class="newscontainer d-flex justify-content-center">
+                <div class="newscard">
+                    <img src="https://www.bbva.com/wp-content/uploads/2021/07/BBVA-Emprendimiento_en_femenino-APERTURA.jpg" />
+                    <div class="card-body">
+                        <h5 class="newscard-title">Cursos SENCE y Municipalidades</h5>
+                        <p class="newscard-text">Entérate de los cursos presenciales que ofrecerá SENCE en conjunto con varias municipalidades, entregando conocimientos para el emprendimiento ¡y además un bono por asistencial al curso!.</p>
+                        <div className="col-md-12 mt-2 buttonEnviarNews">
+                            <Link to="https://www.latercera.com/servicios/noticia/revisa-los-cursos-gratuitos-para-emprendedores-del-sence/DJ7N5FRCHZAH5NV7JWOTLA3PRY/"><button id="submitBtn" className="col-10 btn btn-secondary" type="submit">
+                                Leer más
+                            </button></Link>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="newscard">
-                            <img src="https://www.rutadigital.cl/media/images/gestion.original.jpg" class="card-img-top"/>
-                                <div class="card-body">
-                                    <h5 class="newscard-title">Nuevo curso "Gestion y Colaboración" de RutaDigital y Sercotec"</h5>
-                                    <p class="newscard-text">¿Te falta tiempo? O te gustaria tener más herramientas que ter permitan organizarte mejor… ingresa al siguiente link y descubriras como!
+                </div>
+                <div class="newscard">
+                    <img src="https://www.rutadigital.cl/media/images/gestion.original.jpg" />
+                    <div class="card-body">
+                        <h5 class="newscard-title">Nuevo curso "Gestión y Colaboración" de RutaDigital y Sercotec"</h5>
+                        <p class="newscard-text">¿Te falta tiempo? O te gustaria tener más herramientas que ter permitan organizarte mejor… ingresa al siguiente link y descubriras como!
 
-                                    </p>
-                                    <a href="https://www.rutadigital.cl/gestion-y-colaboracion/" class="btn btn-primary">Leer más</a>
-                                </div>
+                        </p>
+                        <div className="col-md-12 mt-2 buttonEnviarNews">
+                            <Link to="https://www.rutadigital.cl/gestion-y-colaboracion">
+                                <button id="submitBtn" className="col-10 btn btn-secondary" type="submit">
+                                    Leer más
+                                </button></Link>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="newscard">
-                            <img src="https://www.latercera.com/resizer/3oF7CIO_6rmsTwnEeGpYuvyvzP0=/900x600/filters:focal(1278x1492:1288x1482)/cloudfront-us-east-1.images.arcpublishing.com/copesa/YJ4WWUOSYJGVRGFGN4JZTTV7AY.jpg" class="card-img-top"/>
-                                <div class="card-body">
-                                    <h5 class="newscard-title">Mujeres que inspiran: </h5>
-                                    <p class="newscard-text">Yeanice Vásquez Pino, Exitosa cientifica y emprendedora chilena…. Descubre mas de ella en el siguiente link:</p>
-                                    <a href="https://www.latercera.com/que-pasa/noticia/la-cientifica-chilena-que-lucha-contra-el-cambio-climatico-utilizando-inteligencia-artificial/4GZFAXR3UREOLP3WLCAUQ65PJ4/" class="btn btn-primary">Leer más</a>
-                                </div>
+                </div>
+                <div class="newscard">
+                    <img src="https://www.latercera.com/resizer/3oF7CIO_6rmsTwnEeGpYuvyvzP0=/900x600/filters:focal(1278x1492:1288x1482)/cloudfront-us-east-1.images.arcpublishing.com/copesa/YJ4WWUOSYJGVRGFGN4JZTTV7AY.jpg" />
+                    <div class="card-body">
+                        <h5 class="newscard-title">Mujeres que inspiran: </h5>
+                        <p class="newscard-text">Yeanice Vásquez Pino, Exitosa cientifica y emprendedora chilena…. Descubre mas de ella en el siguiente link:</p>
+                        <div className="col-md-12 mt-2 buttonEnviarNews">
+                            <Link to="https://www.latercera.com/que-pasa/noticia/la-cientifica-chilena-que-lucha-contra-el-cambio-climatico-utilizando-inteligencia-artificial/4GZFAXR3UREOLP3WLCAUQ65PJ4/">
+                                <button id="submitBtn" className="col-10 btn btn-secondary" type="submit">
+                                    Leer más
+                                </button></Link>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="newscard">
-                            <img src="https://www.sercotec.cl/wp-content/uploads/2023/02/web_grafica.jpeg" class="card-img-top"/>
-                                <div class="card-body">
-                                    <h5 class="newscard-title">¡Fondos para emprendimientos!</h5>
-                                    <p class="newscard-text">Informate sobre las fechas y los fondos que ofrece el estado, ¡es una gran oportunidad para crecer!.</p>
-                                    <a href="https://www.sercotec.cl/sercotec-anuncia-su-calendario-de-convocatorias-2023" class="btn btn-primary">Leer más</a>
-                                </div>
+                </div>
+                <div class="newscard">
+                    <img src="https://www.sercotec.cl/wp-content/uploads/2023/02/web_grafica.jpeg" />
+                    <div class="card-body">
+                        <h5 class="newscard-title">¡Fondos para emprendimientos!</h5>
+                        <p class="newscard-text">Informate sobre las fechas y los fondos que ofrece el estado, ¡es una gran oportunidad para crecer!.</p>
+                        <div className="col-md-12 mt-2 buttonEnviarNews">
+                            <Link to="https://www.sercotec.cl/sercotec-anuncia-su-calendario-de-convocatorias-2023">
+                                <button id="submitBtn" className="col-10 btn btn-secondary" type="submit">
+                                    Leer más
+                                </button>
+                            </Link>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="newscard">
-                            <img src="https://www.crecemujer.cl/sites/default/files/styles/medium/public/captura_de_pantalla_2023-03-22_164832.jpg?itok=IS6TBJcf" class="card-img-top"/>
-                                <div class="card-body">
-                                    <h5 class="newscard-title">Mujeres exponentes en el emprendimiento</h5>
-                                    <p class="newscard-text">Banco Estado junto con el ministerio de la mujer ofrecen una ronda de charlas sobre el empoderamiento economico de las mujeres, no te las pierdas!.</p>
-                                    <a href="https://www.crecemujer.cl/noticia/dimos-inicio-al-ciclo-mejorando-mis-competencias" class="btn btn-primary">Leer más</a>
-                                </div>
+                </div>
+                <div class="newscard">
+                    <img src="https://www.crecemujer.cl/sites/default/files/styles/medium/public/captura_de_pantalla_2023-03-22_164832.jpg?itok=IS6TBJcf" />
+                    <div class="card-body">
+                        <h5 class="newscard-title">Mujeres exponentes en el emprendimiento</h5>
+                        <p class="newscard-text">Banco Estado junto con el ministerio de la mujer ofrecen una ronda de charlas sobre el empoderamiento económico de las mujeres, no te las pierdas!.</p>
+                        <div className="col-md-12 mt-2 buttonEnviarNews">
+                            <Link to="https://www.crecemujer.cl/noticia/dimos-inicio-al-ciclo-mejorando-mis-competencias">
+                                <button id="submitBtn" className="col-10 btn btn-secondary" type="submit">
+                                    Leer más
+                                </button>
+                            </Link>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="newscard">
-                            <img src="https://static.emol.cl/emol50/Fotos/2023/03/08/file_20230308154126.jpeg" class="card-img-top"/>
-                                <div class="card-body">
-                                    <h5 class="newscard-title">Mas mujeres liderando</h5>
-                                    <p class="newscard-text">Durante los ultimos 3 años el numero de empresas lideradas por mujeres ha crecido un 35! ¿será suficiente? enterate de mas en el sigueinte link:</p>
-                                    <a href="https://www.emol.com/noticias/Economia/2023/03/08/1088752/rol-femenino-en-ecosistema-emprendedor.html" class="btn btn-primary">Leer más</a>
-                                </div>
+                </div>
+                <div class="newscard">
+                    <img src="https://static.emol.cl/emol50/Fotos/2023/03/08/file_20230308154126.jpeg" />
+                    <div class="card-body">
+                        <h5 class="newscard-title">Mas mujeres liderando</h5>
+                        <p class="newscard-text">Durante los últimos 3 años el número de empresas lideradas por mujeres ha crecido un 35! ¿será suficiente? entérate de más en el siguiente link:</p>
+                        <div className="col-md-12 mt-2 buttonEnviarNews">
+                            <Link to="https://www.emol.com/noticias/Economia/2023/03/08/1088752/rol-femenino-en-ecosistema-emprendedor.html">
+                                <button id="submitBtn" className="col-10 btn btn-secondary" type="submit">
+                                    Leer más
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     )
 }
 
@@ -207,7 +226,7 @@ const CardTool = () => {
                     </figure>
                     <div className="contenido-card">
                         <h3>Ideas de publicidad para tu emprendimiento</h3>
-                        <p>Te daremos ideas muy potentes y eficaces para hacer publicidad a tu negocio y vender más.</p>
+                        <p>Te daremos ideas muy potentes y eficaces para hacer publicidad a tu negocio, y vender más.</p>
                         <a href="#">Leer más</a>
                     </div>
                 </div>
@@ -267,7 +286,7 @@ const CardTool = () => {
 }
 
 //aqui va trabajar karen 
-const CardPartner = () => {
+const CardPartner = ({ partner }) => {
     return (
         <div>
             <div class="titlePage">
@@ -275,96 +294,38 @@ const CardPartner = () => {
             </div>
             <div className="body_partner">
                 <div className="container_card_partner">
-                    <div className="card_father_partner">
-                        <div className="card_partner">
-                            <div className="card_front_partner">
-                                <div className="_partner">
-                                    <img src="https://i.ibb.co/YbgJfwR/3.png" />
+                    {partner.map(i => (
+                        <div className="card_father_partner">
+                            <div className="card_partner">
+                                <div className="card_front_partner">
+                                    <div className="_partner">
+                                        <img src={i.imagen} />
+                                    </div>
+                                    <div className="body_card_front_partner bg_partner">
+                                        <h1>{i.nombre} {i.apellido}</h1>
+                                    </div>
                                 </div>
-                                <div className="body_card_front_partner bg_partner">
-                                    <h1>Nombre y Apellido</h1>
-                                </div>
-                            </div>
-                            <div className="card_back_partner">
-                                <div className="body_card_back_partner">
-                                    <h1>Nombre y Apellido</h1>
-                                    <p className="p_card_back_partner">Descripcion</p>
-                                    <div className="back_extra_partner d-flex justify-content-between">
-                                        <div>
-                                            <ul>
-                                                <li>Interes 1</li>
-                                                <li>Interes 2</li>
-                                                <li>Interes 3</li>
-                                            </ul>
-                                        </div>
-                                        <div className="d-flex align-items-center">
-                                            <Link to="/"><AiOutlineMessage /></Link>
+                                <div className="card_back_partner">
+                                    <div className="body_card_back_partner">
+                                        <h1>{i.nombre} {i.apellido}</h1>
+                                        <p className="p_card_back_partner">{i.descripcion}</p>
+                                        <div className="back_extra_partner d-flex justify-content-between">
+                                            <div>
+                                                <ul>
+                                                    <li>{i.interes1}</li>
+                                                    <li>{i.interes2}</li>
+                                                    <li>{i.interes3}</li>
+                                                </ul>
+                                            </div>
+                                            <div className="d-flex align-items-center">
+                                                <Link to="/"><AiOutlineMessage /></Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="card_father_partner">
-                        <div className="card_partner">
-                            <div className="card_front_partner">
-                                <div className="_partner">
-                                    <img src="https://i.ibb.co/fS5C0nv/5.png" />
-                                </div>
-                                <div className="body_card_front_partner bg_partner">
-                                    <h1>Nombre y Apellido</h1>
-                                </div>
-                            </div>
-                            <div className="card_back_partner">
-                                <div className="body_card_back_partner">
-                                    <h1>Nombre y Apellido</h1>
-                                    <p className="p_card_back_partner">Descripcion</p>
-                                    <div className="back_extra_partner d-flex justify-content-between">
-                                        <div>
-                                            <ul>
-                                                <li>Interes 1</li>
-                                                <li>Interes 2</li>
-                                                <li>Interes 3</li>
-                                            </ul>
-                                        </div>
-                                        <div className="d-flex align-items-center">
-                                            <Link to="/"><AiOutlineMessage /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card_father_partner">
-                        <div className="card_partner">
-                            <div className="card_front_partner">
-                                <div className="_partner">
-                                    <img src="https://i.ibb.co/nwJX4Gj/2.png" />
-                                </div>
-                                <div className="body_card_front_partner bg_partner">
-                                    <h1>Nombre y Apellido</h1>
-                                </div>
-                            </div>
-                            <div className="card_back_partner">
-                                <div className="body_card_back_partner">
-                                    <h1>Nombre y Apellido</h1>
-                                    <p className="p_card_back_partner">Descripcion</p>
-                                    <div className="back_extra_partner d-flex justify-content-between">
-                                        <div>
-                                            <ul>
-                                                <li>Interes 1</li>
-                                                <li>Interes 2</li>
-                                                <li>Interes 3</li>
-                                            </ul>
-                                        </div>
-                                        <div className="d-flex align-items-center">
-                                            <Link to="/"><AiOutlineMessage /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
@@ -383,7 +344,7 @@ const CardEvents = () => {
                     <div class="left-column background-left-column">
                         <h6>Eventos</h6>
                         <h4>Presencial</h4>
-                        <img src="https://i.ibb.co/fS5C0nv/5.png"></img>
+                        <img src="https://i.ibb.co/nwJX4Gj/2.png "></img>
                         <h3>Alisa Rivas </h3>
                     </div>
                     <div class="right-column">
@@ -392,7 +353,7 @@ const CardEvents = () => {
                             <h6>30/04/2023 10:00</h6>
                         </div>
                         <h2>Contabilidad básica</h2>
-                        <p>Los numeros son importantes en tu negocio, te enseñare las operaciones basicas y el uso de programas gratuitos para que puedas tener tus numeros en orden</p>
+                        <p>Los números son importantes en tu negocio, te enseñare las operaciones basicas y el uso de programas gratuitos para que puedas tener tus numeros en orden</p>
                         <button class="buttonIns">Inscripción</button>
                     </div>
                 </div>
@@ -400,7 +361,7 @@ const CardEvents = () => {
                     <div class="left-column background-left-column-online">
                         <h6>Eventos</h6>
                         <h4>Online    </h4>
-                        <img src="https://i.ibb.co/nwJX4Gj/2.png"></img>
+                        <img src="https://i.ibb.co/fS5C0nv/5.png"></img>
                         <h3>Javiera Gonzales </h3>
                     </div>
                     <div class="right-column">
@@ -435,7 +396,7 @@ const CardEvents = () => {
                         <h6>Eventos</h6>
                         <h4>Presencial</h4>
                         <img src="https://i.ibb.co/r4bRMYm/8.png"></img>
-                        <h3>Miranda Torres</h3>
+                        <h3>Antonia Yang</h3>
                     </div>
                     <div class="right-column">
                         <div class="dataEvents">

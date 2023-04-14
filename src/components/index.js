@@ -18,5 +18,5 @@ export {
     CardEvents,
     CardNews, 
     CardPartner,
-    CardTool    
+    CardTool
 } 
