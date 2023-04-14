@@ -93,7 +93,7 @@ const Forum = () => {
             <div className="containerForum">
                 <div className="forumPpal">
                     <div className="col-9 forumContenido">
-                        <h3>Ofrezco asesorias basicas de Contabilidad para tu negocio, Preguntame!</h3>
+                        <h3>Ofrezco asesorías básicas de Contabilidad para tu negocio, Pregúntame!</h3>
                         <h6>Contabilidad</h6>
                         <p>Inicio de Actividades, Declaracion de impuestos, Cuaderno de contabilidad, etc.</p>
                         <div className="starForum">
@@ -104,7 +104,7 @@ const Forum = () => {
                     </div>
                     <div className="col-3 fountForum">
                         <img src="https://i.ibb.co/fS5C0nv/5.png" alt="" />
-                        <h6>Autora:<br></br>Alisa Rivas</h6>
+                        <h6>Autora:<br></br>Javiera Gonzales</h6>
                         <div className="iconsForum">
                             <Link to="/" className="heart" button=""><AiFillHeart /></Link>
                             <Link to="/" button=""><BiCommentAdd /></Link>
@@ -113,7 +113,7 @@ const Forum = () => {
                 </div>
                 <div className="forumPpal">
                     <div className="col-9 forumContenido">
-                        <h3>Quieres aumentar tus vistas, y asi ganar mas clientes, Preguntame como!</h3>
+                        <h3>Quieres aumentar tus vistas, y asi ganar mas clientes, Pregúntame como!</h3>
                         <h6>Redes Sociales</h6>
                         <p>Inicio de Actividades, Declaracion de impuestos, Cuaderno de contabilidad, etc.</p>
                         <div className="starForum">
@@ -133,7 +133,7 @@ const Forum = () => {
                 </div>
                 <div className="forumPpal">
                     <div className="col-9 forumContenido">
-                        <h3>Que tal si te ayudo a hacer un catalogo ordenado de productos!</h3>
+                        <h3>Que tal si te ayudo a hacer un catálogo ordenado de productos!</h3>
                         <h6>Diseño</h6>
                         <p>Inicio de Actividades, Declaracion de impuestos, Cuaderno de contabilidad, etc.</p>
                         <div className="starForum">
@@ -144,7 +144,7 @@ const Forum = () => {
                     </div>
                     <div className="col-3 fountForum">
                         <img src="https://i.ibb.co/nwJX4Gj/2.png" alt="" />
-                        <h6>Autora:<br></br> Javiera Gonzales</h6>
+                        <h6>Autora:<br></br> Alisa Rivas</h6>
                         <div className="iconsForum">
                             <Link to="/" className="heart" button=""><AiFillHeart /></Link>
                             <Link to="/" button=""><BiCommentAdd /></Link>
@@ -164,7 +164,7 @@ const Forum = () => {
                     </div>
                     <div className="col-3 fountForum">
                         <img src="https://i.ibb.co/r4bRMYm/8.png" alt="" />
-                        <h6>Autora:<br></br> Miranda Torres</h6>
+                        <h6>Autora:<br></br>Antonia Yang</h6>
                         <div className="iconsForum">
                             <Link to="/" className="heart" button=""><AiFillHeart /></Link>
                             <Link to="/" button=""><BiCommentAdd /></Link>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Us, Slide } from "../components";
+import { Us, Slide} from "../components";
 
 const HomeView = () => {
     return (
